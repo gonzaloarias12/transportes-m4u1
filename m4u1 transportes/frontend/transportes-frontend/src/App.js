@@ -16,15 +16,15 @@ import NovedadesPage from './pages/NovedadesPage';
 function App() {
   return (
     <div className="App">
-          <header/>
+          <Header/>
 
         <BrowserRouter>
             <Nav/>
             <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="nosotros" element={<NosotrosPage />} />
-            <Route path="novedades" element={<NovedadesPage />} />
-            <Route path="contacto" element={<ContactoPage />} />
+            <Route path="/nosotros" element={<NosotrosPage />} />
+            <Route path="/novedades" element={<NovedadesPage />} />
+            <Route path="/contacto" element={<ContactoPage />} />
           </Routes>
         </BrowserRouter>
           <Footer/>
